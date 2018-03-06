@@ -117,6 +117,26 @@
       <InstallRoot>MSBuild</InstallRoot>
     </Content>
     <None Include="project.json" />
+    <Content Include="NuProj\NuGet.Frameworks.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <InstallRoot>MSBuild</InstallRoot>
+    </Content>
+    <Content Include="NuProj\NuGet.Packaging.Core.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <InstallRoot>MSBuild</InstallRoot>
+    </Content>
+    <Content Include="NuProj\NuGet.Packaging.Core.Types.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <InstallRoot>MSBuild</InstallRoot>
+    </Content>
+    <Content Include="NuProj\NuGet.Packaging.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <InstallRoot>MSBuild</InstallRoot>
+    </Content>
+    <Content Include="NuProj\NuGet.Versioning.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <InstallRoot>MSBuild</InstallRoot>
+    </Content>
     <Content Include="ProjectTemplates\NuGet\NuProj\NuProj.nuproj">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -166,6 +186,7 @@
       <VSIXSubPath>NuProj</VSIXSubPath>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <!--<ItemGroup>
     <XamlPropertyRule Include="..\NuProj.ProjectSystem.Shared\Rules\content.xaml">
       <Link>NuProj\Rules\content.xaml</Link>
